@@ -170,7 +170,7 @@ const Articles = () => {
     query {
       projects: allMarkdownRemark(
         filter: {
-          fileAbsolutePath: { regex: "/content/projects/" }
+          fileAbsolutePath: { regex: "/content/articles/" }
           frontmatter: { showInProjects: { ne: false } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
