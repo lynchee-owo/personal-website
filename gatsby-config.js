@@ -7,7 +7,7 @@ module.exports = {
       'Lingjie Feng is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://lingjiefeng.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@LingjieFengO',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
